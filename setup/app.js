@@ -1,4 +1,3 @@
-//usadno os seletores dentro do elemento
 const btns = document.querySelectorAll('.question-btn');
 
 const questions = document.querySelectorAll('.question');
