@@ -246,3 +246,22 @@ Questions
 .show-text .plus-icon {
   display: none;
 }
+
+.addQuestion{
+  height: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addQuestion button{
+  padding: 15px;
+  border-radius: var(--radius);
+  height: 30px;
+  margin: 10px 10px 0 0;
+  border-color: #49a6e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

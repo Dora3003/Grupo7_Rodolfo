@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+:root {
+  --clr-primary-5: #49a6e9;
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-black: #222;
+  --radius: 0.5rem;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --ff-primary: "Roboto", sans-serif;
+  --ff-secondary: "Open Sans", sans-serif;
+}
+
+/* Reset */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-secondary);
+  background: var(--clr-grey-10);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container geral */
+.container {
+  width: 100%;
+  max-width: 600px; /* maior largura */
+  padding: 2rem;
+}
+
+/* Box principal */
+.box {
+  background: var(--clr-white);
+  border-radius: 1rem;
+  padding: 2.5rem 2rem;
+  box-shadow: var(--light-shadow);
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.header h2 {
+  flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: var(--ff-primary);
+  letter-spacing: var(--spacing);
+  color: var(--clr-grey-1);
+}
+
+.header button {
+  background: var(--clr-grey-9);
+  border: 2px solid var(--clr-primary-5);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.header button:hover {
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+}
+
+/* Formulário */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* mais espaçamento */
+}
+
+form input[type="text"] {
+  padding: 1rem;
+  border: 2px solid var(--clr-grey-9);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  outline: none;
+  transition: var(--transition);
+}
+
+form input[type="text"]:focus {
+  border-color: var(--clr-primary-5);
+  box-shadow: 0 0 8px rgba(73, 166, 233, 0.4);
+}
+
+/* Botão adicionar */
+form button {
+  padding: 1rem;
+  background: var(--clr-primary-5);
+  color: var(--clr-white);
+  font-size: 1.1rem;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+form button:hover {
+  background: hsl(205, 72%, 37%);
+}

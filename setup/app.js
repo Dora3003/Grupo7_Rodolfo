@@ -1,4 +1,5 @@
-const questions = document.querySelectorAll('.question');
+const addQuestionForm = document.querySelector('.addQuestionForm');
+const backPage = document.getElementById('backPage');
 
 questions.forEach(function (question) {
     const btn = question.querySelector('.question-btn');
@@ -10,4 +11,14 @@ questions.forEach(function (question) {
         });
         question.classList.toggle('show-text');
     });
+});
+
+// intercepta o submit do form
+addQuestionForm.addEventListener('submit', function (e) {
+    e.preventDefault();
+    window.location.href = 'pergunta.html';
+});
+
+backPage.addEventListener('click', function () {
+    window.location.href = 'index.html';
 });
