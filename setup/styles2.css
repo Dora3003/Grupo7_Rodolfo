@@ -27,8 +27,7 @@
 }
 body {
   font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: linear-gradient(var(--clr-primary-light), var(--clr-bg));
   line-height: 1.5;
   font-size: 1rem;
   display: flex;
