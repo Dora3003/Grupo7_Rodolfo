@@ -12,7 +12,7 @@ Este projeto é uma aplicação web simples desenvolvida para facilitar o acesso
 
 ## Como usar
 
-1. Abra o arquivo `index.html` em seu navegador.
+1. Abra o arquivo <a>https://dora3003.github.io/Grupo7_Rodolfo/</a> em seu navegador.
 2. Navegue pelas perguntas frequentes ou acesse perguntas específicas através da página `pergunta.html`.
 3. O visual e a navegação são otimizados pelos arquivos de estilo e pelo JavaScript presente em `app.js` e os `.css`.
 
@@ -23,7 +23,7 @@ Este projeto é uma aplicação web simples desenvolvida para facilitar o acesso
 
 ## Autores
 
-- Grupo 7 - Filipi inácio E Isadora Jardim
+- Grupo 7 - Filipi Inácio e Isadora Jardim
 
 ## Licença
 
